@@ -414,6 +414,17 @@ h2.center { text-align: center; max-width: 640px; margin-left: auto; margin-righ
 }
 .contact-form .btn { width: 100%; justify-content: center; margin-top: 4px; }
 
+/* Calendly */
+.calendly-block { margin: 48px auto 0; max-width: 720px; }
+.calendly-label {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  color: var(--slate-blue);
+  font-size: 1rem;
+  margin-bottom: 12px;
+}
+.calendly-inline-widget { border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); }
+
 /* Footer */
 .site-footer {
   background: var(--slate-blue);
