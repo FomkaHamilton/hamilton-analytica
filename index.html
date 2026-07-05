@@ -3,9 +3,18 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Hamilton Analytica — Enterprise Thinking. Small Business Heart.</title>
-<meta name="description" content="I help local businesses work smarter and grow stronger — systems, websites, data, and pricing strategy. Talking is free. You only pay for work that's actually done.">
-<link rel="icon" href="data:,">
+<title>Hamilton Analytica: Enterprise Thinking, Small Business Heart.</title>
+<meta name="description" content="I help local businesses work smarter and grow stronger with better systems, websites, data, and pricing strategy. Talking is free, and you only pay for work that's actually done.">
+<meta property="og:title" content="Hamilton Analytica">
+<meta property="og:description" content="Enterprise thinking, small business heart. Talking is free, and you only pay for work that's actually done.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fomkahamilton.github.io/hamilton-analytica/">
+<meta property="og:image" content="https://fomkahamilton.github.io/hamilton-analytica/assets/founder.jpg">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Hamilton Analytica">
+<meta name="twitter:description" content="Enterprise thinking, small business heart.">
+<meta name="twitter:image" content="https://fomkahamilton.github.io/hamilton-analytica/assets/founder.jpg">
+<link rel="icon" type="image/svg+xml" href="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAzNiAzNiI+PHJlY3Qgd2lkdGg9IjM2IiBoZWlnaHQ9IjM2IiByeD0iOSIgZmlsbD0iIzM1NUM3RCIvPjxyZWN0IHg9IjkiIHk9IjgiIHdpZHRoPSI0LjUiIGhlaWdodD0iMjAiIHJ4PSIxLjUiIGZpbGw9IiNGQUZBRjgiLz48cmVjdCB4PSIyMi41IiB5PSI4IiB3aWR0aD0iNC41IiBoZWlnaHQ9IjIwIiByeD0iMS41IiBmaWxsPSIjRkFGQUY4Ii8+PHJlY3QgeD0iOSIgeT0iMTUuNzUiIHdpZHRoPSIxOCIgaGVpZ2h0PSI0LjUiIHJ4PSIxLjUiIGZpbGw9IiNDOTdBNTYiLz48L3N2Zz4=">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
@@ -24,7 +33,7 @@
       </svg>
       <span class="brand-name">Hamilton Analytica</span>
     </a>
-    <nav class="site-nav" aria-label="Primary">
+    <nav class="site-nav" id="site-nav" aria-label="Primary">
       <a href="#how-it-works">How It Works</a>
       <a href="#work">Work</a>
       <a href="#testimonials">Testimonials</a>
@@ -33,6 +42,9 @@
     <div class="header-cta">
       <a class="btn btn-ghost" href="tel:+14802748935"><span>Call</span></a>
       <a class="btn btn-primary" href="#contact">Get In Touch</a>
+      <button class="nav-toggle" id="nav-toggle" aria-label="Open menu" aria-expanded="false" aria-controls="site-nav">
+        <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M4 6h16M4 12h16M4 18h16" stroke="#355C7D" stroke-width="2" stroke-linecap="round"/></svg>
+      </button>
     </div>
   </div>
 </header>
@@ -42,8 +54,8 @@
   <section class="hero">
     <div class="container hero-inner">
       <p class="eyebrow">Enterprise thinking. Small business heart.</p>
-      <h1>Let's talk about growing your business. That part's on me.</h1>
-      <p class="hero-sub">I'm Thomas Hamilton. I help local businesses find more customers, cut wasted software spend, and run smoother — using systems you probably already have. The conversation is always free. I only get paid when the work is actually done.</p>
+      <h1>Let's make your business work smarter.</h1>
+      <p class="hero-sub">I'm Thomas Hamilton. I help local businesses find more customers, spend less on tools that aren't working, and run more smoothly day to day, often using systems you already have. Talking is always free, and you only pay me once the work is actually done.</p>
       <div class="hero-actions">
         <a class="btn btn-primary btn-lg" href="tel:+14802748935">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" fill="currentColor"/></svg>
@@ -54,28 +66,13 @@
           Email Me
         </a>
       </div>
-      <p class="hero-fineprint">No pitch deck. No pressure. Just a straightforward call about where your business is stuck.</p>
+      <p class="hero-fineprint">There's no pitch deck and no pressure, just an honest conversation about where your business feels stuck.</p>
     </div>
   </section>
 
-  <section class="stats">
-    <div class="container stats-grid">
-      <div class="stat">
-        <span class="stat-number">$0</span>
-        <span class="stat-label">Cost to have the first conversation</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">3x</span>
-        <span class="stat-label">Client growth for a recent beauty business</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">1</span>
-        <span class="stat-label">Waitlist created where there wasn't one before</span>
-      </div>
-      <div class="stat">
-        <span class="stat-number">0</span>
-        <span class="stat-label">Payment due until the work is delivered</span>
-      </div>
+  <section class="credibility-band">
+    <div class="container">
+      <p>Big business expertise for the businesses that matter most.</p>
     </div>
   </section>
 
@@ -88,9 +85,9 @@
       <div class="founder-copy">
         <p class="eyebrow">Who You'll Actually Talk To</p>
         <h2>Hi, I'm Thomas.</h2>
-        <p>I spent the last decade helping large corporations get bigger. Now I want to help the people who are doing business right — the local owners and operators who show up for their customers and their communities every day, but rarely get access to Fortune 500-level thinking.</p>
-        <p>I don't believe in overselling or locking people into contracts that don't serve them. I run Hamilton Analytica on the golden rule: I treat every client's business the way I'd want mine treated. That means honest advice, fair pricing, and work I stand behind — no jargon, no fine print, just me, directly, every time.</p>
-        <blockquote class="founder-callout">"Do right by the people in your life — including your clients."</blockquote>
+        <p>I spent a decade helping large corporations grow. Now I want to help the people doing business right: the local owners and operators who show up for their customers and their communities every day, but rarely get access to the kind of thinking that big companies pay a lot of money for.</p>
+        <p>I don't believe in overselling or locking people into contracts that don't serve them. I run Hamilton Analytica on the golden rule: I treat every client's business the way I'd want mine treated. That means honest advice, fair pricing, and work I stand behind. No jargon, no fine print, just me, directly, every time.</p>
+        <blockquote class="founder-callout">"Do right by the people in your life, including your clients."</blockquote>
       </div>
     </div>
   </section>
@@ -103,19 +100,39 @@
       <div class="steps">
         <div class="step">
           <span class="step-number">1</span>
-          <h3>We talk — no cost, no catch</h3>
+          <h3>We talk, no cost, no catch</h3>
           <p>Call or send a message. I'll ask about your business and where it feels stuck. This conversation costs you nothing and commits you to nothing.</p>
         </div>
         <div class="step">
           <span class="step-number">2</span>
           <h3>I build you a clear, fair plan</h3>
-          <p>You'll get a straightforward proposal with real numbers — no vague retainers, no confusing fine print.</p>
+          <p>You'll get a straightforward proposal with real numbers, no vague retainers and no confusing fine print.</p>
         </div>
         <div class="step">
           <span class="step-number">3</span>
           <h3>You pay when the work is done</h3>
           <p>I get paid for results delivered, not promises made. Flexible pricing and payment plans are available for every business size and budget.</p>
         </div>
+      </div>
+
+      <div class="engagements">
+        <p class="eyebrow center">A Few Ways to Get Started</p>
+        <p class="section-sub center">Every engagement looks a little different, but most fall into one of these.</p>
+        <div class="engagement-grid">
+          <div class="card engagement-card">
+            <h3>Quick Consult</h3>
+            <p>One focused conversation to work through a specific problem. Good for a second opinion, a fast fix, or help thinking something through before you commit to a bigger project.</p>
+          </div>
+          <div class="card engagement-card">
+            <h3>Project Engagement</h3>
+            <p>A defined piece of work with a clear start and finish, like a new website, a pricing overhaul, or getting your systems to actually talk to each other. You'll know the plan and the cost before anything begins.</p>
+          </div>
+          <div class="card engagement-card">
+            <h3>Ongoing Partnership</h3>
+            <p>Continued support as your business grows. I stay involved on a regular basis, whether that's monthly check ins, ongoing data work, or just being the person you call when something comes up.</p>
+          </div>
+        </div>
+        <p class="engagements-note center">Whichever one fits, pricing is built around your business, and payment plans are always available.</p>
       </div>
     </div>
   </section>
@@ -131,7 +148,7 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="12" cy="12" r="9" stroke="#355C7D" stroke-width="1.6"/><path d="M12 7v5l3.5 2" stroke="#355C7D" stroke-width="1.6" stroke-linecap="round"/></svg>
           </div>
           <h3>Operations &amp; Systems Optimization</h3>
-          <p>I look at how your business actually runs day to day and find the friction points — then fix them with tools you already own wherever possible.</p>
+          <p>I look at how your business actually runs day to day and find the friction points. Then I fix them with tools you already own wherever possible.</p>
         </div>
 
         <div class="card service-card">
@@ -171,7 +188,7 @@
             <svg width="22" height="22" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 3v18M6 8c0-1.7 2.7-3 6-3s6 1.3 6 3-2.7 3-6 3-6 1.3-6 3 2.7 3 6 3 6-1.3 6-3" stroke="#fff" stroke-width="1.6" stroke-linecap="round"/></svg>
           </div>
           <h3>Flexible Pricing, Any Business Size</h3>
-          <p>Solo shop or growing team — pricing and payment plans are built around what your business can actually support.</p>
+          <p>Solo shop or growing team, pricing and payment plans are built around what your business can actually support.</p>
         </div>
 
       </div>
@@ -187,25 +204,25 @@
         <div class="card work-card">
           <span class="tag">Beauty &amp; Personal Care</span>
           <h3>Lashes by Samantha</h3>
-          <p>Consolidated scattered software into streamlined systems — helping triple client volume while cutting unnecessary software spend.</p>
+          <p>I consolidated scattered software into a few streamlined systems. Client volume tripled, and a lot of unnecessary software spend went away.</p>
         </div>
 
         <div class="card work-card">
           <span class="tag">Home Services</span>
           <h3>Sun Air Services</h3>
-          <p>Identified operational friction points and implemented clear, practical fixes without overengineering — building a genuine growth partnership.</p>
+          <p>I found where operations were losing time and put clear, practical fixes in place without overengineering anything. It turned into a genuine partnership focused on growth.</p>
         </div>
 
         <div class="card work-card">
           <span class="tag">Beauty &amp; Personal Care</span>
           <h3>Sabrina Does Makeup</h3>
-          <p>Provided ongoing business support that helped turn a side gig into a full-time, sustainable business.</p>
+          <p>I provided ongoing support that helped turn a side gig into a full-time, sustainable business.</p>
         </div>
 
         <div class="card work-card">
           <span class="tag">Studio &amp; Retail</span>
           <h3>Diamond Body Art</h3>
-          <p>Built a customer acquisition strategy that created strong enough demand to maintain a waitlist.</p>
+          <p>I built a customer acquisition strategy that created enough demand to keep a waitlist running.</p>
         </div>
 
       </div>
@@ -215,27 +232,27 @@
   <section class="testimonials" id="testimonials">
     <div class="container">
       <p class="eyebrow center">Client Stories</p>
-      <h2 class="center">Don't take my word for it</h2>
+      <h2 class="center">Hear it from the people I've worked with</h2>
       <div class="testimonial-grid">
 
         <blockquote class="card testimonial-card">
           <p>&ldquo;I was able to triple my clientele and stop spending so much money on random software that couldn't help me as much as Hamilton Analytica did.&rdquo;</p>
-          <footer>Samantha G. <span>— Lashes by Samantha</span></footer>
+          <footer>Samantha G., <span>Lashes by Samantha</span></footer>
         </blockquote>
 
         <blockquote class="card testimonial-card">
           <p>&ldquo;Thomas made sense and didn't overcomplicate his proposed fixes. He clearly took the time to understand my business and really felt like I had a partner in making my business grow.&rdquo;</p>
-          <footer>Scott D. <span>— Sun Air Services</span></footer>
+          <footer>Scott D., <span>Sun Air Services</span></footer>
         </blockquote>
 
         <blockquote class="card testimonial-card">
           <p>&ldquo;Without the support from Thomas, I don't think I would have been able to grow my business from a side gig to something I get to do for a living. Highly recommend!&rdquo;</p>
-          <footer>Sabrina D. <span>— Sabrina Does Makeup</span></footer>
+          <footer>Sabrina D., <span>Sabrina Does Makeup</span></footer>
         </blockquote>
 
         <blockquote class="card testimonial-card">
           <p>&ldquo;Thomas is the man! It was like having a down to earth business shark. Now I have enough customers that there's actually a waitlist!&rdquo;</p>
-          <footer>Travis C. <span>— Diamond Body Art</span></footer>
+          <footer>Travis C., <span>Diamond Body Art</span></footer>
         </blockquote>
 
       </div>
@@ -255,27 +272,27 @@
 
         <details class="faq-item">
           <summary>What's your background?</summary>
-          <p>I spent a decade helping large corporations grow before starting Hamilton Analytica to bring that same thinking to local businesses. I run everything on the golden rule — I treat your business the way I'd want mine treated.</p>
+          <p>I spent a decade helping large corporations grow before starting Hamilton Analytica to bring that same thinking to local businesses. I run everything on the golden rule: I treat your business the way I'd want mine treated.</p>
         </details>
 
         <details class="faq-item">
           <summary>How much does the work cost?</summary>
-          <p>It depends on the project — every proposal is priced around what makes sense for your business, not a one-size-fits-all rate card. I offer flexible pricing and payment plans for businesses of every size and budget.</p>
+          <p>It depends on the project. Every proposal is priced around what makes sense for your business, not a one size fits all rate card. I offer flexible pricing and payment plans for businesses of every size and budget.</p>
         </details>
 
         <details class="faq-item">
           <summary>What if I'm not sure I need help yet?</summary>
-          <p>That's exactly what the free conversation is for. If I don't think I can add real value, I'll tell you — no hard sell.</p>
+          <p>That's exactly what the free conversation is for. If I don't think I can add real value, I'll tell you plainly, no hard sell.</p>
         </details>
 
         <details class="faq-item">
           <summary>What kinds of businesses do you work with?</summary>
-          <p>Mostly local, owner-run businesses — beauty and personal care, home services, retail, and studios. If you're a small business trying to do more with what you've got, we're probably a good fit.</p>
+          <p>Mostly local, owner-run businesses in beauty and personal care, home services, retail, and studios. If you're a small business trying to do more with what you've got, we're probably a good fit.</p>
         </details>
 
         <details class="faq-item">
           <summary>Do I have to sign a long contract?</summary>
-          <p>No. I get paid when work is actually delivered — not on a locked-in retainer. That keeps me accountable to results, not just hours.</p>
+          <p>No. I get paid when work is actually delivered, not on a locked-in retainer. That keeps me accountable to results, not just hours.</p>
         </details>
 
       </div>
@@ -285,7 +302,7 @@
   <section class="cta" id="contact">
     <div class="container cta-inner">
       <h2>Tell me what's going on with your business.</h2>
-      <p>Call, email, or send a quick message below — I read and respond to all of them personally.</p>
+      <p>Call, email, or send a quick message below. I read and respond to all of them personally.</p>
       <div class="hero-actions center">
         <a class="btn btn-primary btn-lg" href="tel:+14802748935">
           <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.1 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.3 1l-2.2 2.2z" fill="currentColor"/></svg>
@@ -296,6 +313,12 @@
           hamiltoneclectic@gmail.com
         </a>
       </div>
+
+      <!-- Calendly widget placeholder: swap YOUR_CALENDLY_LINK for the real scheduling link -->
+      <!--
+      <div class="calendly-inline-widget" data-url="https://calendly.com/YOUR_CALENDLY_LINK" style="min-width:320px;height:700px;"></div>
+      <script src="https://assets.calendly.com/assets/external/widget.js" async></script>
+      -->
 
       <form class="contact-form" action="https://formspree.io/f/YOUR_FORM_ID" method="POST">
         <div class="form-row">
@@ -351,6 +374,19 @@
 
 <script>
   document.getElementById('year').textContent = new Date().getFullYear();
+
+  const navToggle = document.getElementById('nav-toggle');
+  const siteNav = document.getElementById('site-nav');
+  navToggle.addEventListener('click', () => {
+    const isOpen = siteNav.classList.toggle('open');
+    navToggle.setAttribute('aria-expanded', isOpen);
+  });
+  siteNav.querySelectorAll('a').forEach(link => {
+    link.addEventListener('click', () => {
+      siteNav.classList.remove('open');
+      navToggle.setAttribute('aria-expanded', 'false');
+    });
+  });
 </script>
 </body>
 </html>
